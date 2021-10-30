@@ -1,0 +1,38 @@
+.modal {
+  display: none;
+  z-index: 2;
+  position: relative;
+  width: 250px;
+  height: 250px;
+  background: bisque;
+  border: 2px solid #666;
+  margin: 50px;
+}
+
+.modal--open {
+  display: block;
+}
+
+.modal__close {
+  position: absolute;
+  color: #666;
+  background-color: transparent;
+  border: none;
+  height: 20px;
+  width: 20px;
+  right: 6px;
+  top: 5px;
+  cursor: pointer;
+  font-size: 20px;
+  padding: 0;
+}
+
+.modal__text {
+  margin-top: 50px;
+  font-size: 22px;
+  text-align: center;
+}
+
+.button {
+  margin: 0 50px;
+}
